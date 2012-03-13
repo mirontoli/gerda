@@ -1,0 +1,77 @@
+
+		  #page{
+		  	 width:750px;
+			 height:600px; 
+			 
+			} 
+
+			#header{
+			 width:100%;
+			 height:100px;  
+			 background-color:#ccdcfa; 
+                         font-family: Tahoma, Helvetica; 
+                         font-size: 24px;
+                         font-weight: bold;
+                         color:black;
+                         line-height:100px;
+                         vertical-align: middle;
+                         text-align: center;
+                         }
+                         a { color: black ; text-decoration: none;}
+                         a:hover { color: red; text-decoration: underline;} 
+			#leftcol ul li a {font-size:10pt;}
+			#leftcol ul li a:hover{border-style:outset; border-width:2px; color: black;  text-decoration: none;margin-left:-3px}
+                        
+			#leftcol{
+			 width:150px;
+			 height: 100%;
+			 background-color:#ccdcfa; 
+                         overflow: auto;
+			 float:left;
+
+			}
+                        #leftcol ul{margin-top:70px}
+                        #leftcol ul li {list-style-image:url(img/action_check.gif)}
+                        #leftcol ul li:hover {margin-left:-3px}
+                        #leftcol p{margin-top:70px; text-align:center;}
+                        
+
+			#maincol{ 
+			 width: 600px;
+			 height: 100%;			 
+			 background-color:#FFFBB6; 
+			 font-family: verdana; font-size: 12px;
+                         float: left; 
+			 overflow: auto;
+                         background-image: url(img/side.gif);
+                         background-repeat:no-repeat; 
+                         text-align: center;
+			 }
+                        #maincol h4{font-family: "monotype corsiva";font-style:italic; text-align:center; font-size:14pt;margin-top:5px}
+        
+                        #header img {float:left; border:0; margin-top:20px; margin-left:20px;} 
+                        #leftcol IMG {border:0; margin:5px}
+                        
+                         #box{text-align:left; padding:2px; width: 80%; height: 510px; margin-left:auto; margin-right:auto; margin-top:50px; overflow: auto; background-color:white; border-color:#808080; border-width:2px;  border-style:solid;  }
+	                 h1{font-size:17pt}
+                         h2{font-size:15pt}
+                         h3{font-size:13pt}
+                         #box p{margin:15px}
+                         #box a{text-decoration: underline;}
+
+        
+   
+ 
+
+
+
+/* meny */
+
+
+#menycontainer a {display:block; float:left; margin:5px; font-family: Verdana; background-color: green; color: black; font-weight: bold; text-decoration: none; padding: 5px 50px 5px 50px;}
+#menycontainer a:link {background-color: green;}
+#menycontainer a:visited {background-color: yellow;}
+#menycontainer a:hover {background-color: red}
+IMG {border:0}
+
+
